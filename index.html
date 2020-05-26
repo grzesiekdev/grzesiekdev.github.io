@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Grzegorz Bednarski</title>
+        <link rel="stylesheet" href="morphext/dist/morphext.css">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <script src="morphext/dist/morphext.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style/style.css" type="text/css"></link>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Dancing+Script&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/cba675c464.js"></script>
+        <script type="text/javascript" src="scripts/progress.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </head>
+    <body onload="fill()">
+        <div class="container-fluid">
+            <div id="home">
+                <div class="row rectangle1"></div>
+                <div class="row text-center">
+                    <div class="col-sm-6 rectangle2 float-left w-50"><span id="js-rotating">Python , FrontEnd , FullStack</span></div>
+                    <div class="col-sm-6 rectangle3 float-left w-50">Developer</div>
+                </div>
+                <div class="row rectangle4 float-none">
+                    <div class="col-sm-12 text-center mt-5">
+                         Hi, my name is <span id="name">Grzegorz Bednarski</span>.<br>
+                         I am web developer.<br>
+                        <a href="#about">
+                            <button type="button" class="btn btn-outline-success mt-5">
+                                Check my work <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <script type="text/javascript">
+                     $("#js-rotating").Morphext({
+                        animation: "pulse",
+                        separator: ",",
+                        speed: 3000,
+                        complete: function () {
+                        }
+                    });
+
+                    </script>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="about">
+                <div class="row">
+                    <div class="col-sm-12 text-center font-weight-bold mt-5">
+                        ABOUT <br>
+                        <hr/>
+                    </div>
+                </div>
+                <div class="row mt-1 mx-auto text-center">
+                    <div class="col-sm-3 change">
+                        <span class="pos mb-5" data-hover='&#128435;' data-active="don't push me >:c">
+                            <i class="fas fa-mobile-alt"></i>
+                        </span><br>
+                        <span class="font-weight-bold">Mobile first</span><br>
+                        <span class="small">My projects are full responsive, adjusted for all of your devices.</span>
+                    </div>
+                    <div class="col-sm-3 change">
+                        <span class="pos mb-5" data-hover='&#10003;' data-active="don't push me >:c">
+                            <i class="far fa-gem"></i>
+                        </span><br>
+                        <span class="font-weight-bold">High quality</span><br>
+                        <span class="small">Code that i write is high quality, and is easily scalable.</span>
+                    </div>
+                    <div class="col-sm-3 change">
+                        <span class="pos mb-5" data-hover="&#10940;" data-active="don't push me >:c" >
+                        <i class="fas fa-tachometer-alt"></i>
+                        </span><br>
+                        <span class="font-weight-bold">Fast</span><br>
+                        <span class="small">My websites are loading fast, and they never crash. </span>
+                    </div>
+                    <div class="col-sm-3 change">
+                        <span class="pos mb-5 font" data-hover='jS' data-active="don't push me >:c">
+                            <i class="fab fa-telegram-plane"></i>
+                        </span><br>
+                        <span class="font-weight-bold">Dynamic</span><br>
+                        <span class="small">I use newest technology to make my websites come to life. </span>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-3 col-6">
+                        <img src="images/sample.png" class="img-fluid ml-4" width="90%" height="90%"/>
+                    </div>
+                    <div class="col-lg-3 col-6 littleM text-justify">
+                        <span class="font-weight-bold">Who am I?</span><br>
+                        <span>I am high school graduated student from Poland. I have experience in creating websited, but my real passion is programming in Python. On right you can see my skills in creating websites. If you want to get know more about my <span style="color: green;">Python skills</span>, you should check <a href="https://github.com/grzesiekdev/snake_game">this project.</a></span>
+                    </div>
+                    <div class="col-sm-auto d-none d-lg-block">
+                        <h5 class="ml-4">HTML/CSS</h5>
+                        <div class="box">
+                            <div class="triangle-top-left"></div>
+                            <div class="poly-1"></div>
+                            <div class="poly-2"></div>
+                            <div class="poly-3"></div>
+                            <div class="poly-4"></div>
+                            <div class="triangle-bottom-right"></div>
+                            <div class="progress"></div>
+                        </div><br><br>
+                        <h5 class="ml-4">JavaScript</h5>
+                        <div class="box">
+                            <div class="triangle-top-left"></div>
+                            <div class="poly-1"></div>
+                            <div class="poly-2"></div>
+                            <div class="poly-3"></div>
+                            <div class="poly-4"></div>
+                            <div class="triangle-bottom-right"></div>
+                            <div class="progress"></div>
+                        </div><br><br>
+                        <h5 class="ml-4">Bootstrap</h5>
+                        <div class="box">
+                            <div class="triangle-top-left"></div>
+                            <div class="poly-1"></div>
+                            <div class="poly-2"></div>
+                            <div class="poly-3"></div>
+                            <div class="poly-4"></div>
+                            <div class="triangle-bottom-right"></div>
+                            <div class="progress"></div>
+                        </div><br><br>
+                        <h5 class="ml-4">SASS(SCSS)</h5>
+                        <div class="box">
+                            <div class="triangle-top-left"></div>
+                            <div class="poly-1"></div>
+                            <div class="poly-2"></div>
+                            <div class="poly-3"></div>
+                            <div class="poly-4"></div>
+                            <div class="triangle-bottom-right"></div>
+                            <div class="progress"></div>
+                        </div><br><br>
+                        <h5 class="ml-4">Wordpress</h5>
+                        <div class="box">
+                            <div class="triangle-top-left"></div>
+                            <div class="poly-1"></div>
+                            <div class="poly-2"></div>
+                            <div class="poly-3"></div>
+                            <div class="poly-4"></div>
+                            <div class="triangle-bottom-right"></div>
+                            <div class="progress"></div>
+                        </div><br><br>
+                        <h5 class="ml-4">jQuery</h5>
+                        <div class="box">
+                            <div class="triangle-top-left"></div>
+                            <div class="poly-1"></div>
+                            <div class="poly-2"></div>
+                            <div class="poly-3"></div>
+                            <div class="poly-4"></div>
+                            <div class="triangle-bottom-right"></div>
+                            <div class="progress"></div>
+                        </div><br><br>
+                        <h5 class="ml-4">PHP/MySQL</h5>
+                            <div class="box">
+                            <div class="triangle-top-left"></div>
+                            <div class="poly-1"></div>
+                            <div class="poly-2"></div>
+                            <div class="poly-3"></div>
+                            <div class="poly-4"></div>
+                            <div class="triangle-bottom-right"></div>
+                            <div class="progress"></div>
+                        </div><br><br>
+                    </div>
+                </div>
+            </div><br>
+            <div id="projects">
+                <div class="row mt-5">
+                    <div class="col-sm-12 text-center font-weight-bold mt-5">PROJECTS</div>
+                </div>
+                <hr />
+                <div class="container">
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-lg-4 project">
+                            <div class="showMe">
+                                <span class="mt-5 font-weight-bold" style="font-size: 24px; margin-top: 10px;"> Kampanie Google Ads </span><br><br>
+                                <span style="width: 80%;"> Wordpress + HTML + CSS + Javascript<br>
+                                <span class="font-italic">Website made for my former employer, 100% by me</span></span><br>
+                                <a href="https://kampaniegoogleads.pl/" target="_blank"><button class="mt-5 btn btn-light btn-lg">See more</button></a>
+                            </div>
+                            <img src="images/cnd.png" width="100%" height="100%">
+                        </div>
+                        <div class="col-lg-4 project">
+                            <div class="showMe">
+                                <span class="mt-5 font-weight-bold" style="font-size: 24px; margin-top: 10px;"> DIY Lego</span><br><br>
+                                <span style="width: 80%;">HTML + CSS + Bootstrap + SCSS + Javascript<br>
+                                <span class="font-italic">Recruitment task</span></span><br>
+                                <a href="https://github.com/grzesiekdev/recruitmentTask" target="_blank">
+                                    <button class="mt-5 btn btn-light btn-lg">See more</button>
+                                </a>
+                            </div>
+                            <img src="images/recruitment.png" width="100%" height="100%">
+                        </div>
+                        <div class="col-lg-4 project">
+                            <div class="showMe">
+                                <span class="mt-5 font-weight-bold" style="font-size: 24px; margin-top: 10px;"> Snake</span><br><br>
+                                <span style="width: 80%;">Pure Python 3.8<br>
+                                <span class="font-italic">Snake in terminal</span></span><br>
+                                <a href="https://github.com/grzesiekdev/snake_game" target="_blank">
+                                    <button class="mt-5 btn btn-light btn-lg">See more</button>
+                                </a>
+                            </div>
+                            <img src="images/snake.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <div class="row mt-5">
+                    <div class="col-sm-12 text-center font-weight-bold mt-5">Contact</div>
+                </div>
+                <hr />
+                <div style="font-size: 40px; padding: 5%;">
+                    <center>Feel free to contact me in any case - i would be happy to start working with you!</center> <br><br>
+                    <span style="font-size: 30px;">
+                    <div class='row'>
+                        <div class='col-sm-6'>
+                            Email: grzesiekb@onet.pl<br>
+                            Linkedin: <a href="https://www.linkedin.com/in/grzesiekbednarski/" target="_blank">grzesiekbednarski</a><br>
+                            Github: <a href="https://github.com/grzesiekdev" target="_blank">grzesiekdev</a><br>
+                        </div>
+                        <div class='col-sm-6'>
+                            <form action="send.php" method="post" name="form">
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">Your email address</label>
+                                <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted" style="font-size: 13px;">I'll never share your email with anyone else.</small>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">Your message</label>
+                                <textarea class="form-control" name="message" rows="5" cols="10" placeholder="Message">
+                                </textarea>
+                              </div>
+                              <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="check">
+                                <label class="form-check-label" for="exampleCheck1"> <small style='font-size: 16px;'>I hereby agree to have my personal data processed by Grzegorz Bednarski for contact purposes. I've been informed that i can access, delete or correct my personal data.</small></label>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                </div>
+                </span>
+                </div>
+            </div>
+            <!-- Footer -->
+<footer class="page-footer font-small blue pt-4" style="height: auto; background-color: #FFF69A; margin-top: 10%;">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Grzegorz Bednarski
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+        </div>
+    </body>
+</html>
