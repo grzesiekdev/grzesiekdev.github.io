@@ -22,7 +22,7 @@
 
             $header = 'From: '.$email;
             mail($email_to, $email_subj, $message, $header);
-            echo 'Thank you. I will contact with you as soon as possible.';
+            echo 'Thank you. I will contact you as soon as possible.';
         }
 
     }
